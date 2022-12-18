@@ -1,5 +1,6 @@
 let quote = document.querySelector("#quote");
-const api_url = "https://zenquotes.io/api/quotes/";
+let author = document.querySelector("#author");
+const url = "http://quotable.io/random";
 
 window.onload = fireEvent();
 
@@ -9,7 +10,16 @@ function fireEvent() {
   unsplashURL =
     "url(https://source.unsplash.com/" +
     windowDimensions +
-    "/?landscape/?bright)";
+    "/?minimal/?bright)";
 
   document.getElementById("container").style.backgroundImage = unsplashURL;
+
+  fetch(url)
+    .then((response) => {
+      return response.json();
+    })
+    .then((data) => {
+      quote.innerText = '"' + data.content + '"';
+      author.innerText = "-" + data.author;
+    });
 }
