@@ -1,6 +1,6 @@
 let quote = document.querySelector("#quote");
 let author = document.querySelector("#author");
-const url = "http://quotable.io/random";
+const url = "https://quotable.io/random";
 
 window.onload = fireEvent();
 
