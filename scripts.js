@@ -10,7 +10,7 @@ function fireEvent() {
   unsplashURL =
     "url(https://source.unsplash.com/" +
     windowDimensions +
-    "/?minimal/?bright)";
+    "/?minimal/?white)";
 
   document.getElementById("container").style.backgroundImage = unsplashURL;
 

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Ms Madi");
+
 * {
   padding: 0;
   margin: 0;
@@ -5,6 +7,11 @@
   box-sizing: border-box;
   color: black;
   background-color: transparent;
+}
+
+h1 {
+  font-family: "Ms Madi", serif;
+  font-size: 50px;
 }
 
 #container {
@@ -28,13 +35,13 @@
   padding: 10px;
 }
 
-.bottom{
+.bottom {
   position: absolute;
   bottom: 15px;
   left: 0;
 }
 
-.bottom2{
+.bottom2 {
   position: absolute;
   bottom: 0;
   left: 0;
