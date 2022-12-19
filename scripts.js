@@ -7,10 +7,12 @@ window.onload = fireEvent();
 function fireEvent() {
   let windowDimensions = window.innerWidth + "x" + window.innerHeight;
 
-  unsplashURL =
-    "url(https://source.unsplash.com/" +
-    windowDimensions +
-    "/?minimal/?white)";
+  // unsplashURL =
+  //   "url(https://source.unsplash.com/" +
+  //   windowDimensions +
+  //   "/?minimal/?white)";
+
+  unsplashURL = "url(https://source.unsplash.com/random/?minimal)";
 
   document.getElementById("container").style.backgroundImage = unsplashURL;
 
