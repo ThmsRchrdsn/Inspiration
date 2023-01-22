@@ -40,18 +40,24 @@ h1 {
   padding: 10px;
 }
 
-.bottom {
+.bottom-one {
+  margin-bottom: 1cm;
+}
+
+.texthugnearthebottomleft{
   position: absolute;
   bottom: 15px;
   left: 0;
 }
 
-.bottom2 {
+.texthugthebottomleft{
   position: absolute;
   bottom: 0;
   left: 0;
 }
 
-.bottom-one {
-  margin-bottom: 1cm;
+.texthugthebottomright{
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
