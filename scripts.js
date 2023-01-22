@@ -2,8 +2,6 @@ let quote = document.querySelector("#quote");
 let author = document.querySelector("#author");
 let fonts = [
   "Ms Madi",
-  "Satisfy",
-  "Pacifico",
   "Great Vibes",
   "Sacramento",
   "Tangerine",
